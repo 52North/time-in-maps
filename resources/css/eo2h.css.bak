@@ -1,0 +1,320 @@
+* {
+	font: normal 1em 'trebuchet ms', arial, sans-serif;
+	color: #777;
+}
+
+h2 {
+	font: normal 175% 'trebuchet_ms', arial, sans-serif;
+	color: #009bd9;
+}
+
+/*
+ * HEADER
+ */
+
+#logo {
+	/*width: 825px;*/
+
+	position: relative;
+	top: 10px;
+	height: 80px;
+	background: url(../images/eo2heaven_logo_mini.png) no-repeat;
+}
+
+#logo #logo_text {
+	position: absolute;
+	top: 10px;
+	left: 110px;
+}
+
+#logo h1, #logo h2 {
+	font: normal 150% 'verdana', arial, sans-serif;
+	color: #bbb;
+	border-bottom: 0;
+	text-transform: none;
+	margin: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+	padding: 20px 0 0 0;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+#logo_text h1 .logo_colour {
+	color: #CDF63E;
+}
+
+#logo_text h2 {
+	font-size: 100%;
+	padding: 4px 0 0 0;
+	color: #DDD;
+}
+
+.stamp {
+	text-shadow: -1px -1px 0px #607080, 1px 1px 0px #e2e5e8;
+}
+
+/*
+ * MAP
+ */
+
+div.olControlLayerSwitcher {
+	width: 30em;
+}
+
+.olcontrollayerswitcher .layersdiv .baselayersdiv, .olcontrollayerswitcher .layersdiv .datalayersdiv {
+	width: 29em;
+}
+
+/*
+ * SIDEBAR
+ */
+
+.sidebar a { /*color: #FFF;*/
+	text-decoration: none !important;
+	/*	color: #BBB;*/
+}
+
+.sidebar a:hover {
+	color: #BBB;
+	text-decoration: none;
+}
+
+.sidebar #legend {
+	margin: 10px;
+}
+
+.sidebar ul {
+	width: 178px;
+	padding: 4px 0 0 0;
+	margin: 4px 0 30px 0;
+}
+
+.sidebar li {
+	list-style: none;
+	padding: 0 0 7px 0;
+}
+
+.sidebar li a, .sidebar li a:hover {
+	padding: 0 0 0 40px;
+	display: block;
+	background: transparent url(../images/link.png) no-repeat left center;
+}
+
+.sidebar li a.selected {
+	color: #444;
+	text-decoration: none;
+}
+
+/*.right
+ { float: right;
+ width: auto;}*/
+
+/*
+ * BUTTON & SLIDER
+ */
+.play-icon {
+	background-image: url(../images/play39.png);
+	background-repeat: no-repeat;
+	width: 39px !important;
+	height: 39px !important;
+}
+
+.pause-icon {
+	background-image: url(../images/pause39.png);
+	background-repeat: no-repeat;
+	width: 39px !important;
+	height: 39px !important;
+}
+
+.add-icon {
+	background-image: url(../images/add.png);
+	background-repeat: no-repeat;
+}
+
+.sub-icon {
+	background-image: url(../images/sub.png);
+	background-repeat: no-repeat;
+}
+
+#custom-slider {
+	width: 214px;
+	padding-top: 6px;
+	background-image: url(images/ticks.gif);
+}
+
+#custom-slider .x-slider-thumb {
+	background-image: url(images/slider-thumb.png);
+}
+
+.right {
+	text-align: right;
+}
+
+/*
+ * FOOTER
+ */
+
+#footer {
+	/*	width: 878px;*/
+	font: normal 100% 'lucida sans unicode', arial, sans-serif;
+	/*  height: 33px;*/
+	/*  padding: 24px 0 5px 0;*/
+	text-align: center;
+	/*  background: #29425E url(footer.png) repeat-x;*/
+	color: #bbb;
+	letter-spacing: 0.1em;
+}
+
+#footer a { /*color: #FFF;*/
+	text-decoration: none;
+	color: #BBB;
+}
+
+#footer a:hover {
+	color: #BBB;
+	text-decoration: none;
+}
+
+.thinButton  .dijitButtonNode {
+	width: auto !important;
+	height: auto !important;
+}
+
+.labelSpan {
+	vertical-align: top !important;
+	padding-left: 5px;
+}
+.olControlLayerSwitcher .olControlNoSelect {
+	top: -10px;
+}
+
+#OpenLayers_Control_MaximizeDiv_innerImage {
+	width: auto !important;
+	top: 2px;
+	right: 92px;
+}
+
+#DisplayDetails {
+	z-index: 1010 !important;
+	overflow: auto;
+	width: 800px;
+	height: 550px;
+	background: #fff;
+}
+
+.olControlLayerSwitcher {
+	top: -10px !important;
+}
+#featinfotable table{
+	padding: 4px;
+	border-collapse: separate;
+}
+#featinfotable table, table tr th, table tr td {
+/*	font-size: 10px;*/
+	text-align: center;
+}
+#featinfotable table tr th, #featinfofedstate table tr th, #popup_contentDIV table tr th {
+	background-color: #DFDFDF;
+	font-weight: normal;
+	padding: 4px; 
+}
+#featinfotable td {
+	padding-right: 0px;
+}
+
+.contentDetails table{
+	border-collapse: separate;
+}
+
+.contentDetails table tr th {
+	background-color: #DFDFDF;
+	font-weight: normal;
+}
+.contentDetails table tr th, .contentDetails table tr td {
+	text-align: center;
+}
+
+#country {
+	font-weight: bold !important;
+	font-size: 12px;
+}
+
+#casestitle, #casesEntries, #casesTotal, #casesMax, #casesMin, #casesMean {
+	font-weight: bold !important;
+	font-size: 11px;
+}
+#deathsTitle, #deathsEntries, #deathsTotal, #deathsMax, #deathsMin, #deathsMean {
+	font-weight: bold !important;
+	font-size: 11px;
+}
+#fatRateTitle, #FatRateEntries, #FatRateTotal, #FatRateMax, #FatRateMin, #FatRateMean {
+	font-weight: bold !important;
+	font-size: 11px;
+}
+
+#contentDetailsTilte, #ChartSectionTitle {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.contentDetails {
+	border: 1px solid #b7b7b7;
+	background: #fff;
+	padding: 5px;
+/*	height: 270px;*/
+	overflow: auto;
+}
+.contentDetails table, .contentDetails table tr th, .contentDetails table tr td {
+	padding: 4px;
+}
+
+#ChartSection {
+	border: 1px solid #b7b7b7;
+	background: #fff;
+	padding: 5px;
+	height: 150px;
+	margin-top: 20px;
+}
+#sHealthParam, #sEoParam {
+	width: 150px;
+	margin-bottom: 10px;
+}
+#labelHealth {
+	padding-right: 80px;
+}
+#labelEO {
+	padding-right: 12px;
+}
+#buttonOpenChart {
+	text-align: center;
+}
+#DisplayChart {
+	z-index: 1020 !important;
+	overflow: auto;
+}
+#contentChart {
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
+#layerSwitcherCustom{
+	font-size:11px;
+}
+#gfi-win-content{
+	background-color:white;	
+}
+#controlToggle {
+	margin-left:5px ;
+}
+#controlToggle li {
+    list-style: none;
+}
+#areaSelection, #timePeriod, #latselection, #fileFormat{
+	margin: 0 0;
+	padding:5px;
+}
+#minwidth{
+	width: 100px;
+}
